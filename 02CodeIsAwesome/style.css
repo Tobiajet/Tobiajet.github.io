@@ -1,0 +1,31 @@
+body {
+    background: url(lovetint.jpeg) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.rowHeight {
+    height: 500px;
+}
+
+h1 {
+    color: #000;
+    font-size: 2.5em;
+}
+
+.bg {
+    background-color: #c1c1c1;
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: #fff;
+    position: fixed; /*moves to the bottom*/
+    bottom: 0; /*moves to the bottom*/
+}
+
+p {
+    font-size: 18px;
+    padding: 10px;
+    
+}
