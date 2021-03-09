@@ -1,0 +1,90 @@
+body {
+    background: url(https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) no-repeat ;
+    background-size: cover;
+    color: #fff;
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.opening {
+    font-family: 'Comic Neue', cursive;
+    border: 1px white solid;
+    background: #fff;
+    color: black;
+}
+
+.opening:hover {
+    background-color: yellow;
+}
+.opening:hover h1 {
+    color: blue;
+}
+
+.projects p {
+    border: 1px white solid;
+    background: #fff;
+    color: black;
+}
+
+.projects:hover p {
+    color: blue;
+}
+
+.projects p:hover {
+    background-color: yellow;
+}
+
+
+.projects p {
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+}
+
+.p1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#project 1 {
+    border: 1px white solid;
+}
+
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.p2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.p3 {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.p3:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: small;
+}
